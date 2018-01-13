@@ -1,4 +1,4 @@
-package db
+package db // import "code.ysitd.cloud/common/go/db"
 
 import (
 	"database/sql"

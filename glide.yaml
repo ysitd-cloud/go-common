@@ -1,3 +1,3 @@
-package: github.com/ysitd-cloud/go-common
+package: code.ysitd.cloud/go/common
 import:
 - package: github.com/tonyhhyip/go-di-container
