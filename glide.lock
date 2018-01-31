@@ -1,6 +1,6 @@
-hash: 5b185b9a967369de5995607af154063b76ac592342a33b2dfa8472fa3564cbac
-updated: 2018-01-13T08:59:57.413546+08:00
+hash: 85671e77010f8c63c073478ba3c2a64ad0aafbaa7663b48e9cabf7f1251a3d3d
+updated: 2018-01-31T12:38:00.105876+08:00
 imports:
 - name: github.com/tonyhhyip/go-di-container
-  version: 70c3bbde180962982ad98529ff7f56a98693292f
+  version: 77ff030b0a993bd4f5ad4ed525ee4b42ba630625
 testImports: []
