@@ -6,12 +6,15 @@ import (
 	"github.com/tonyhhyip/go-di-container"
 )
 
+// Alias for backward compatible. Will remove soon
+type Pool = DBOpener
+
 // Pool provide way to acquire db connection
-type Pool interface {
+type DBOpener interface {
 	Acquire() (*sql.DB, error)
 }
 
-type pool struct {
+type opener struct {
 	driver string
 	dsn    string
 }
