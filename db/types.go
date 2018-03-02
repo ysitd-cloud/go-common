@@ -6,6 +6,7 @@ import (
 	"github.com/tonyhhyip/go-di-container"
 )
 
+// Pool provide way to acquire db connection
 type Pool interface {
 	Acquire() (*sql.DB, error)
 }
